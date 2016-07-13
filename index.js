@@ -33,13 +33,7 @@ module.exports = function (options) {
     var paths = walk(options.root);
     paths.forEach(function (value, index) {
         var _path = path.relative(options.root, value);
-
-        // 忽略路由中的文件名 自定义restful参数
-        if(_path.indexOf('/') == -1){
-            _path = '';
-        } else {
-            _path = '/' + _path.slice(0,  _path.lastIndexOf('/'));
-        }
+        _path = '/' + _path.slice(0,  _path.lastIndexOf(options.suffix));
 
         router.use(options.prefix + _path, require(value).routes());
     });

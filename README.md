@@ -18,7 +18,7 @@ var admin = directoryRouter({
 });
 app.use(admin.routes());
 
-忽略路由中的文件名 自定义restful参数
+提示：文件夹名可定义为router中可变参数
 ```
 作者官网:
 http://www.wemallshop.com
