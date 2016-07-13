@@ -1,0 +1,28 @@
+{
+  "name": "koa-directory-router",
+  "version": "1.0.3",
+  "description": "koa directory router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/einsqing/koa-directory-router.git"
+  },
+  "keywords": [
+    "koa",
+    "koa-router",
+    "koa-directory-router",
+    "router"
+  ],
+  "author": "www.wemallshop.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/einsqing/koa-directory-router/issues"
+  },
+  "homepage": "https://github.com/einsqing/koa-directory-router#readme",
+  "dependencies": {
+    "koa-router": "^5.4.0"
+  }
+}
